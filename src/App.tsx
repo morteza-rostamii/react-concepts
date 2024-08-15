@@ -2,6 +2,7 @@
 //import reactLogo from './assets/react.svg'
 //import viteLogo from '/vite.svg'
 import './App.css'
+import { ReactTesting } from './components/ReactTesting'
 import { StateDerived } from './components/StateDerived'
 
 function App() {
@@ -10,6 +11,8 @@ function App() {
     <>
       react app
       <StateDerived/>
+
+      <ReactTesting/>
     </>
   )
 }
